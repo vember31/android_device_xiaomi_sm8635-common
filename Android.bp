@@ -52,6 +52,12 @@ install_symlink {
     symlink_target: "/data/vendor/mbnconfig",
 }
 
+mkdir {
+    name: "vendor_modem_firmware_mountpoint",
+    dir: "modem_firmware",
+    vendor: true,
+}
+
 prebuilt_hidl_interfaces {
     name: "hidl_intentaware_interface",
     interfaces: [
