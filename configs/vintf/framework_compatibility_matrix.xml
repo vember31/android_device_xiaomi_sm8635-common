@@ -8,6 +8,20 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+        <name>vendor.xiaomi.hardware.seaaudio</name>
+        <interface>
+            <name>ISeaAudio</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.xiaomi.sensor.camera</name>
+        <interface>
+            <name>IMiCam</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>com.fingerprints.extension3</name>
         <interface>
             <name>IFingerprintNavigation</name>
