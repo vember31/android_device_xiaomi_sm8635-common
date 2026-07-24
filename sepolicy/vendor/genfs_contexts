@@ -1,5 +1,4 @@
-# Battery
-genfscon sysfs /class/qcom-battery    u:object_r:vendor_sysfs_qcom_battery:s0
+# Battery -- uses vendor_sysfs_battery_supply from QCOM sepolicy_vndr
 
 # Camera
 genfscon sysfs /module/camera/parameters/cam_cci_io_protect    u:object_r:vendor_sysfs_camera:s0
